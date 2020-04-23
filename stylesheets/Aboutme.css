@@ -1,0 +1,102 @@
+body{
+    font-size:14;
+    
+
+    font-size:0.9em;
+    font-weight:2em;
+   border-style:groove;
+     
+    margin-top:12px;
+    
+    
+     
+}
+
+.iamaadi{
+    animation-name: from_right;
+    animation-duration: 3s;
+}
+
+ 
+li{
+    font-size:1.5em;
+    margin:3px;
+ 
+}
+#get-smaller{
+    font-size: 15px;
+    margin-left:30px;
+    
+}
+#box-shadow{
+    box-shadow:2px 2px 5px rgba(0,0,0,0.5);
+
+}
+
+
+ 
+li{
+    font:Arvo;
+}
+
+.p-aboutme{
+     
+    font-size:1.3em;
+    color:black;
+    font-weight:2em;
+    font-family:"Bellota Text";
+     
+    width:70%;
+    margin-left:15%;
+    
+} 
+.line{  /* this is copied from abdul-moqueet */
+   
+        margin-left: 15%;
+        width: 170px;
+        height: 3px;
+        background-image: -o-linear-gradient(350deg, #ff3969, #9d2ecc);
+        background-image: linear-gradient(100deg, #ff3969, #9d2ecc);
+}
+.line2{
+    position:absolute;
+    left:35%;
+    margin-bottom:200px;
+    width: 270px;
+    height: 3px;
+    background-image: -o-linear-gradient(350deg, #ff3969, #9d2ecc);
+    background-image: linear-gradient(100deg, #ff4473, #186e63);
+     
+    animation-name:from_left;
+    animation-duration:1s;
+    animation-timing-function: ease-in;
+
+}
+
+
+@keyframes from_left{
+    0%{
+        left:0%;
+
+    }
+
+    100%{
+         left:35%;
+    }
+}
+
+@keyframes from_right{
+    0%{
+        right:0%;
+    }
+
+    100%{
+        right:35%;
+    }
+}
+
+h1{
+    margin-left:15%;
+}
+
+
