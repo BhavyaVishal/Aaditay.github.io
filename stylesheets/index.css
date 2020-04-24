@@ -15,6 +15,7 @@ a,a:active,a:visited{
 
 
 
+
 nav{
     width:100%;
 
@@ -36,7 +37,7 @@ nav li{
 .navbar_buttons{
     color: rgba(151, 146, 151, 0.562);
     text-decoration:None;
-    padding:10px;
+    
 }
 .navbar_buttons:hover{
     color:white;
@@ -88,38 +89,10 @@ nav li{
     text-decoration: none;
 }
 
-
- 
- 
- 
-@keyframes shakeit{
-    0%{
-        transform:rotate(0);
-    }
-    25%{
-        transform:rotate(10deg);
-    }
-    50%{
-        transform:rotate(0deg);
-
-    }
-    75%{
-        transform:rotate(-10deg);
-    }
-    100%{
-        transform:rotate(0deg);
-    }
+#Intelli{
+    margin:3em;
 }
-
-@keyframes list_hover{
-    0%{
-        margin-left:0px;
-    }
-
-    100% {
-        margin-left:20px;      
-    }
-}
+  
 
 .quote{
     padding:2em;

@@ -4,23 +4,26 @@
  
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <style>
         *{ box-sizing: border-box;
-        color:white;
         padding:0;
         margin:0;
         }
-    
+    body{
+        color:white;
+    }
 nav{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color:#2b2e3b;
-    padding: 1.5em;
-    font-family:"Raleway";
-    background-color:#2b2e3b;
+    width:100%;
+
+display: flex;
+justify-content: center;
+flex-direction: row;
+background-color:#2b2e3b;
+padding: 1.5em;
+font-family:"Raleway";
 }
  
 
@@ -34,6 +37,13 @@ nav li{
 }
 
 
+.navbar_buttons{
+    color: rgba(151, 146, 151, 0.562);
+    text-decoration:None;
+    
+}
+
+
 a,a:active,a:visited{
     color: white;
     text-decoration:None;
@@ -41,16 +51,19 @@ a,a:active,a:visited{
      
 }
 a:hover{
-    background-color:black;
-    transform:scale(1.5);
-    box-shadow:3px 3px 7px black;
+     
+ color:white;
+}
+   
+.skills{
+    color:black;
+    font-family:"Raleway";
+    width : 70vw;
+    position:absolute;
+    top: 20vh;
+    left:10%;
+}
 
-}
- 
-ul:nth-child(1){
-    color:red;
-    
-}
  
 
         
@@ -60,32 +73,49 @@ ul:nth-child(1){
  
 <body>
     <nav>
-        <ul>  
+        <ul> 
+
+            
             <li>
-                <a href ="../index.html" ><i class='fas fa-chevron-left' style="color:white;"></i>
+                <a href="./Aboutme.html" class="navbar_buttons">About</a>
+            </li>
+
+            <li>
+                <a href="./Myskills.html" class="navbar_buttons">Skills</a>
+            </li>
+
+            <li>
+                <a href="./Myproj.html" class="navbar_buttons"> Projects</a>
+            </li>    
+            <li>
+                <a href = "https://github.com/Aaditay">
+                     
+                    <i   class="fa fa-github"></i> 
                 </a>
-            </li>
-            <li>
-                <a href="../Apps/Aboutme.html">About</a>
-            </li>
 
-            <li >
-                <a href="../Apps/Myskills.html" style="background-color:black; transform:scale(1.5); box-shadow:3px 3px 7px black;">Skills</a>
-            </li>
-
+            </li>    
             <li>
-                <a href="../Apps/Myproj.html"> Projects</a>
-            </li>             
+                  
+                <a href="https://twitter.com/GargAaditay">
+                    <i class="fa fa-twitter"> </i> 
+                </a>
+
+            </li>     
+            <li>
+                <a href = "https://www.instagram.com/__aaditay/">
+                    <i class="fa fa-instagram"> </i>  
+                </a>
+
+            </li>
         </ul>
     </nav>
   
-  <ul>   
-    <li>
-        Python      
+<div class = "skills" >
+  <ul>   <b>  
+        <li>Python 
+  
          
-        <ul><li> Matplotlib </li>
-            <li> Pygal</li>
-            <li> Graphics library</li>
+        <ul>
             <li> Trying to hand over <b>Competitive programming</b> using PYTHON </li>
         </ul>
     <li>
@@ -96,13 +126,17 @@ ul:nth-child(1){
     <br>
     <li>
         
-        Some Web Skills(Enough to code this website )
+        Some Web Skills(Enough to code this website ) - <a href="https://youtu.be/UB1O30fR-EE"  style="color:blue;"> Want to  code a website ?</a>
     </li>
     <br>
-    <li>VCS@GIthub</li> - <a href="https://github.com/Aaditay"> My Github Account </a>
+    <li>VCS@GIthub</li> - <a href="https://github.com/Aaditay" style ='color:blue;'> My Github Account </a>
 
     </li>
+    <li>
+        I can also work with Adobe Photoshop , But just a beginner level :)
+    </li>
 </ul>
-
+</b>
+</div>
 </body>
 

@@ -1,10 +1,23 @@
 <head> 
     <link href="https://fonts.googleapis.com/css?family=Arvo|Trade+Winds&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <style>
         #box-shadow{
     box-shadow:5px 5px 10px 5px rgba(0,0,0,0.5);
 
+}
+
+*{
+    box-sizing: border-box;
+     
+    padding: 0;
+    margin: 0;
+    font-family:"Raleway";
 }
 
 .line{  /* this is copied from abdul-moqueet */
@@ -16,6 +29,55 @@
    background-image: -o-linear-gradient(350deg, #ff3969, #9d2ecc);
    background-image: linear-gradient(100deg, #ff3969, #9d2ecc);
 }
+
+
+
+.icons{
+    padding: 1em;
+    position:absolute;
+    right:5%;
+    top:1%;
+}
+
+.fa ,nav a{
+    color :white;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+
+nav{
+    width:100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color:#2b2e3b;
+    padding: 1.5em;
+}
+
+nav li{
+    display: inline;
+    margin: 5px;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+
+
+.navbar_buttons{
+    color: rgba(151, 146, 151, 0.562);
+    text-decoration:None;
+    padding:10px;
+}
+.navbar_buttons:hover{
+    color:white;
+    
+    
+
+}
+
 .title_proj{
     color:black;
      font-family:"Bellota Text"; 
@@ -54,7 +116,48 @@
 </head>
 
 <body align="center">
+
+    <nav>
+        <ul> 
+            <div>
+            <li>
+                <a href="./Aboutme.html" class="navbar_buttons">About</a>
+            </li>
+
+            <li>
+                <a href="./Myskills.html" class="navbar_buttons">Skills</a>
+            </li>
+
+            <li>
+                <a href="./Myproj.html" class="navbar_buttons"> Projects</a>
+            </li>    
+            </div>
+            <div>
+            <li>
+                <a href = "https://github.com/Aaditay">
+                     
+                    <i class="fa fa-github"></i> 
+                </a>
+
+            </li>    
+            <li>
+                  
+                <a href="https://twitter.com/GargAaditay">
+                    <i class="fa fa-twitter"></i> 
+                </a>
+
+            </li>     
+            <li>
+                <a href = "https://www.instagram.com/__aaditay/">
+                    <i class="fa fa-instagram"></i>  
+                </a>
+
+            </li>
+            </div>
+        </ul>
+    </nav>
 <h1 id ="my_proj"> >_ My Projects </h1>
+<h2> </h2>
 
 <h3  class = "title_proj">My Personal Website:
     <div class = "line"> </div> </h3>
