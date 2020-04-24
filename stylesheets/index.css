@@ -17,7 +17,7 @@ a,a:active,a:visited{
 
 
 nav{
-    width:100%;
+    width:100vw;
 
     display: flex;
     justify-content: center;
