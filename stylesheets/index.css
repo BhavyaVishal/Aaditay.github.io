@@ -1,24 +1,19 @@
 *{
     box-sizing: border-box;
-     
     padding: 0;
     margin: 0;
     font-family:"Raleway";
-     
 } 
+
 a,a:active,a:visited{
     color: white;
     text-decoration:None;
     padding:10px;
-     
 }
-
-
 
 
 nav{
     width:100vw;
-
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -41,9 +36,6 @@ nav li{
 }
 .navbar_buttons:hover{
     color:white;
-    
-    
-
 }
 
 #profile{
