@@ -1,189 +1,135 @@
-<head> 
-    <link href="https://fonts.googleapis.com/css?family=Arvo|Trade+Winds&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-
-    <title>  Aaditay Garg - A Self-Taught Programmer   </title>
+<html>
+  <head>
+    <!--------------------------GOOGLE FONTS  ------------------------------>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-----------------------FONT AWESOME --------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Aaditay Garg - A Self-Taught Programmer</title>
     <meta property="og:description" content="Projects-  - Aaditay Garg " />
-        
-        
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <style>
-        #box-shadow{
-    box-shadow:5px 5px 10px 5px rgba(0,0,0,0.5);
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: "Raleway";
+      }
 
-}
+      a,
+      a:active,
+      a:visited {
+        color: white;
+        text-decoration: None;
+        padding: 10px;
+      }
 
-*{
-    box-sizing: border-box;
-     
-    padding: 0;
-    margin: 0;
-    font-family:"Raleway";
-}
+      nav {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #2b2e3b;
+        padding: 1.5em;
+      }
 
-.line{  /* this is copied from abdul-moqueet */
-   margin-top:20px;
-   margin: auto;
-    width:50%;
-   
-   height: 3px;
-   background-image: -o-linear-gradient(350deg, #ff3969, #9d2ecc);
-   background-image: linear-gradient(100deg, #ff3969, #9d2ecc);
-}
+      nav li {
+        display: inline;
+        margin: 5px;
+        font-size: 1.5em;
+        font-variant: small-caps;
+        font-weight: bolder;
+      }
 
+      .navbar_buttons a {
+        color: rgba(151, 146, 151, 0.562);
+        text-decoration: None;
+      }
+      .navbar_buttons a:hover {
+        color: white;
+        transition: 0.4s;
+      }
 
+      .social-icons {
+        position: absolute;
+        right: 10vw;
+      }
+      @media only screen and (max-width: 768px) {
+        .social-icons {
+          display: none;
+        }
+      }
 
-.icons{
-    padding: 1.5em;
-    position:absolute;
-    right:5%;
-    top:1%;
-}
-
-.fa ,nav a{
-    color :white;
-    font-size: 100%;
-    text-decoration: none;
-}
-
-
-nav{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color:#2b2e3b;
-    padding: 1.5em;
-}
-
-nav li{
-    display: inline;
-    margin: 5px;
-    font-size: 1.5em;
-    font-variant: small-caps;
-    font-weight: bolder;
-}
-
-
-
-.navbar_buttons{
-    color: rgba(151, 146, 151, 0.562);
-    text-decoration:None;
-    padding:5px;
-    
-}
-.navbar_buttons:hover{
-    color:white;
-    
-    
-
-}
-
-.title_proj{
-    color:black;
-     font-family:"Bellota Text"; 
-     font-weight:5em;
-     font-size:3em;
-    margin-top:300px;
-    margin-bottom:100px;
-    padding-right:0px;
-    width:50%;
-}
-
-#my_proj{
-    font-family:Bellota Text;
-    font-weight: 3em;
-    color: rgb(119,3,28); 
-    animation-name:shakee;
-    animation-duration:5s;
-    animation-iteration-count: infinite;
-
-    font-size:5em; 
-    padding:40px;
-
-}
-@keyframes shakee{
-     0%{transform:rotate(0deg);}
-     25%{transform:rotate(4deg);}
-     50%{ transform :rotate(0deg);}
-     75%{transform:rotate(-4deg);}
-     100%{
-         transform:rotate(0deg);
-     }
-   
-}
-
+      img {
+        width: 50vw;
+        height: 30vw;
+        margin-left: 25vw;
+        box-shadow: 20px 20px 100px 10px rgba(0, 0, 0, 0.438);
+        margin-bottom: 2em;
+        margin-top: 2em;
+      }
+      h4 {
+        font-size: 2em;
+      }
     </style>
-</head>
-
-<body align="center">
-
+  </head>
+  <body>
     <nav>
-        <ul> 
-            <div>
-            <li>
-                <a href="./Aboutme.html" class="navbar_buttons">About</a>
-            </li>
+      <div class="navbar_buttons">
+        <ul>
+          <li>
+            <a href="./Aboutme.html">About</a>
+          </li>
 
-            <li>
-                <a href="./Myskills.html" class="navbar_buttons">Skills</a>
-            </li>
+          <li>
+            <a href="./Myskills.html">Skills</a>
+          </li>
 
-            <li>
-                <a href="./Myproj.html" class="navbar_buttons"> Projects</a>
-            </li>    
-            </div>
-            <div>
-            <li>
-                <a href = "https://github.com/Aaditay">
-                     
-                    <i class="fa fa-github"></i> 
-                </a>
-
-            </li>    
-            <li>
-                  
-                <a href="https://twitter.com/GargAaditay">
-                    <i class="fa fa-twitter"></i> 
-                </a>
-
-            </li>     
-            <li>
-                <a href = "https://www.instagram.com/__aaditay/">
-                    <i class="fa fa-instagram"></i>  
-                </a>
-
-            </li>
-            </div>
+          <li>
+            <a href="./Myproj.html"> Projects</a>
+          </li>
         </ul>
+      </div>
+
+      <div class="social-icons">
+        <ul>
+          <li>
+            <a href="https://github.com/Aaditay">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/GargAaditay">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/__aaditay/">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
-<h1 id ="my_proj"> >_ My Projects </h1>
-<h2> </h2>
-
-<h3  class = "title_proj">My Personal Website:
-    <div class = "line"> </div> </h3>
-    
-<img src="../images/website.jpg" id="box-shadow" width="80%" length="100%"> 
- <div>
-<h3 class = "title_proj">Random Walk with Matplotlib :  <div class = "line"> </div> </h3>
-<img src="../images/Annotation 2020-03-07 162025.jpg" id="box-shadow" width="80%" length="100%"> 
-<br> <br>
-<img src="../images/Random_walk2.jpeg" id="box-shadow" width="80%" length="100%" >
-
-<h3 class = "title_proj"> Using Github API  (pygal)  : <div class = "line"> </div>   </h3>
-<img src="../images/GitHubapi.jpeg"  id="box-shadow" width="80%" length="100%">
-
-
-<h3 class = "title_proj" > Rollong Two D6+D6 dies 1.5 Million times  :  <div class = "line">  </div> </h3>
-<img src="../images/Rolling_a_die.jpeg"  id="box-shadow" width="80%" length="100%">
-
-
-<h3  class = "title_proj"> Graph Of Sin(x)  :  <div class = "line">  </div> </h3>
-<img src="../images/Sinx.jpeg"  id="box-shadow" width="80%" length="100%">
-
-
-<h2 style="color:black; font-family:Trade Winds; margin:100px 0px 40px 0px;"> A big project is awaiting in the list  </h5>
-</h2>
- </body>
+    <p>Nothing Big , Just Simple Interaction with Python Libraries</p>
+    <h4>
+      My Own Website
+    </h4>
+    <img src="../images/website.jpg" />
+    <h4>
+      Some Interactions With Python
+    </h4>
+    <img src="../images/GitHubapi.jpeg" />
+    <img src="../images/Annotation 2020-03-07 162025.jpg" />
+    <img src="../images/Random_walk2.jpeg" />
+    <img src="../images/Rolling_a_die.jpeg" />
+    <img src="../images/Sinx.jpeg" />
+    <h1>A Big Project is awaiting in the list</h1>
+  </body>
+</html>
