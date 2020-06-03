@@ -1,96 +1,115 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family:"Raleway";
-} 
-
-a,a:active,a:visited{
-    color: white;
-    text-decoration:None;
-    padding:10px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
 }
 
-
-nav{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color:#2b2e3b;
-    padding: 1.5em;
+:root {
+  --primary-color: #2b2e3b;
 }
 
-nav li{
-    display: inline;
-    margin: 5px;
-    font-size: 1.5em;
-    font-variant: small-caps;
-    font-weight: bolder;
+a,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: None;
+  padding: 10px;
 }
 
-.navbar_buttons{
-    color: rgba(151, 146, 151, 0.562);
-    text-decoration:None;
-    
-}
-.navbar_buttons:hover{
-    color:white;
-}
-
-#profile{
-    background-color:#2b2e3b;
-    width:100vw;
-    color:white;
-    position: relative;
-    padding: 1em;
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #2b2e3b;
+  padding: 1.5em;
 }
 
-#profile>img{
-    display: block;
-    margin: auto;
-    border-radius:50%;
-    width:20vh;
-    height:20vh;
-    border:4px solid rgb(43,46,65);
- 
+nav li {
+  display: inline;
+  margin: 5px;
+  font-size: 1.5em;
+  font-variant: small-caps;
+  font-weight: bolder;
 }
 
-.font-big{
-    font-size: 2em;
-    margin: auto;
-    font-weight: bolder;
-    text-align: center;
+.navbar_buttons a {
+  color: rgba(151, 146, 151, 0.562);
+  text-decoration: None;
+}
+.navbar_buttons a:hover {
+  color: white;
+  transition: 0.4s;
 }
 
-.font-medium{
-    font-size:0.8em;
-    margin: auto;
+.social-icons {
+  position: absolute;
+  right: 10vw;
+}
+@media only screen and (max-width: 768px) {
+  .social-icons .fa-instagram,
+  .social-icons .fa-twitter {
+    display: none;
+  }
+  .social-icons .fa-github {
+    font-size: 0.8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+#profile {
+  background-color: #2b2e3b;
+  width: 100vw;
+  color: white;
+  position: relative;
+  padding: 1em;
 }
 
-.icons{
-    padding: 1em;
-    position:absolute;
-    right:5%;
-    top:1%;
+#profile > img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+  border: 4px solid rgb(43, 46, 65);
 }
 
-.icons .fa , .icons a{
-    
-    font-size: 100%;
-    text-decoration: none;
+.font-big {
+  font-size: 2em;
+  margin: auto;
+  font-weight: bolder;
+  text-align: center;
 }
 
-#Intelli{
-    margin:3em;
+.font-medium {
+  font-size: 0.8em;
+  margin: auto;
 }
-  
 
-.quote{
-    padding:2em;
-    color: white;
-    font-size: large;
-    text-align: center;
-    background-color: #2b2e3b;
-    box-shadow:5px 3px 5px 5px rgba(0,0,0,0.3);   
+.icons {
+  padding: 1em;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+
+.icons .fa,
+.icons a {
+  font-size: 100%;
+  text-decoration: none;
+}
+
+#Intelli {
+  margin: 3em;
+}
+
+.quote {
+  padding: 2em;
+  color: white;
+  font-size: large;
+  text-align: center;
+  background-color: #2b2e3b;
+  box-shadow: 5px 3px 5px 5px rgba(0, 0, 0, 0.3);
 }
